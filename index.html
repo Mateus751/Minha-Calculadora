@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Minha Calculadora</title>
+        <style>
+            button {
+                color: black;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+            button {
+                width: 50px;
+                height: 50px;
+            }
+        </style>
+
+         <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+        <input 
+                type="text" 
+                placeholder=""
+                id="visor"
+                readonly
+                style="font-size: 30px; width: 200px; text-align: right;"
+            >
+        <table>
+            <tr>
+                <td><button data-key="1">1</button></td>
+                <td><button data-key="2">2</button></td>
+                <td><button data-key="3">3</button></td>
+                <td><button data-key="+">+</button></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><button data-key="4">4</button></td>
+                <td><button data-key="5">5</button></td>
+                <td><button data-key="6">6</button></td>
+                <td><button data-key="-">-</button></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><button data-key="7">7</button></td>
+                <td><button data-key="8">8</button></td>
+                <td><button data-key="9">9</button></td>
+                <td><button data-key="*">*</button></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td><button data-key="0">0</button></td>
+                <td><button data-key="=">=</button></td>
+                <td><button data-key=".">.</button></td>
+                <td><button data-key="/">/</button></td>
+                <td><button data-key="C">C</button></td>
+            </tr>
+        </table>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>

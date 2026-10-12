@@ -1,0 +1,8 @@
+body {
+    background-color: lightblue;
+
+    button {
+        background-color: blue;
+        color: white;
+    }
+}
